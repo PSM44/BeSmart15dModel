@@ -1,0 +1,85 @@
+﻿hoja,celda,valor,etiqueta_izquierda,etiqueta_superior,tipo
+Flujo mensual,C3,Mes 0,Ingresos,,OUTPUT_CANDIDATO_CORE
+Flujo mensual,B4,Arriendos,,Ingresos,OUTPUT_CANDIDATO_CORE
+Flujo mensual,C10,Mes 0,Egresos,,OUTPUT_CANDIDATO_CORE
+Flujo mensual,B11,Amoblado,,Egresos,OUTPUT_CANDIDATO_CORE
+Flujo mensual,B24,Flujo acumulado,,Flujo,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12,E2,Año 0,Ingresos,,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12,D3,Arriendos,,Ingresos,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12,G4,0,='Flujo mensual'!G5,='Flujo mensual'!$O$4*12*0.9,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12,H4,0,0,='Flujo mensual'!$O$4*12*0.9,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12,I4,0,0,='Flujo mensual'!$O$4*12*0.9,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12,J4,0,0,='Flujo mensual'!$O$4*12*0.9,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12,G5,0,='Flujo mensual'!G6,0,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12,F6,0,,='Flujo mensual'!G6,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12,D7,Total Ingresos,,Venta propiedades,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12,E9,Año 0,Egresos,,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12,D10,Amoblado,,Egresos,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12,F10,0,='Flujo mensual'!C11,Año 1,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12,F14,0,='Flujo mensual'!P14,='Flujo mensual'!$P$13,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12,G14,0,0,='Flujo mensual'!$P$13,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12,H14,0,0,='Flujo mensual'!$P$13,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12,I14,0,0,='Flujo mensual'!$P$13,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12,J14,0,0,='Flujo mensual'!$P$13,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12,G15,0,='Flujo mensual'!P15,0,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12,G16,0,='Flujo mensual'!P16,0,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12,D25,Flujo acumulado,,Flujo Anual Proy. Puro (+ C.F.),OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12,D36,Flujo anual acumulado,,Flujo caja anual,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),E4,Año 0,Ingresos,,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),Q4,Año 0,Ingresos,,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),D5,Arriendos,,Ingresos,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),P5,Arriendos,,Ingresos,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),G6,0,='Flujo mensual'!G5,='Flujo mensual'!$O$4*12*0.9,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),H6,0,0,='Flujo mensual'!$O$4*12*0.9,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),I6,0,0,='Flujo mensual'!$O$4*12*0.9,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),J6,0,0,='Flujo mensual'!$O$4*12*0.9,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),S6,0,='Flujo 5 años C20'!F4,='Flujo 5 años C20'!G3,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),T6,0,0,='Flujo 5 años C20'!H3,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),U6,0,0,='Flujo 5 años C20'!I3,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),V6,0,0,='Flujo 5 años C20'!J3,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),G7,0,='Flujo mensual'!G6,0,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),S7,0,='Flujo 5 años C20'!F5,0,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),F8,0,,='Flujo mensual'!G6,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),R8,0,,='Flujo 5 años C20'!F5,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),D9,Total Ingresos,,Venta propiedades,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),P9,Total Ingresos,,Venta propiedades,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),Q9,0,Total Ingresos,,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),E11,Año 0,Egresos,,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),Q11,Año 0,Egresos,,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),D12,Amoblado,,Egresos,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),F12,0,='Flujo mensual'!C11,Año 1,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),F16,0,='Flujo mensual'!P14,='Flujo mensual'!$P$13,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),G16,0,0,='Flujo mensual'!$P$13,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),H16,0,0,='Flujo mensual'!$P$13,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),I16,0,0,='Flujo mensual'!$P$13,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),J16,0,0,='Flujo mensual'!$P$13,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),G17,0,='Flujo mensual'!P15,0,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),G18,0,='Flujo mensual'!P16,0,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),P23,Impuesto,,='Flujo 5 años C20'!D20,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),W23,0,,='Flujo 5 años C20'!K20,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),D27,Flujo acumulado,,Flujo Proyecto,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),P27,Flujo acumulado,,Flujo Proyecto,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),Q27,-755.6675062972292,Flujo acumulado,=Q9-Q24,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),Y34,-5386.430942716888,,='Flujo 5 años C20'!M31,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),Q35,1000,Flujo Financiamiento,,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),Q37,244.33249370277076,Flujo caja anual,,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),D38,Flujo anual acumulado,,Flujo caja anual,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),P38,Flujo anual acumulado,,Flujo caja anual,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),Q38,244.33249370277076,Flujo anual acumulado,244.33249370277076,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C20,E2,Año 0,Ingresos,,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C20,D3,Arriendos,,Ingresos,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C20,G4,0,='Flujo mensual'!G5,='Flujo mensual'!$O$4*12*0.9,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C20,H4,0,0,='Flujo mensual'!$O$4*12*0.9,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C20,I4,0,0,='Flujo mensual'!$O$4*12*0.9,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C20,J4,0,0,='Flujo mensual'!$O$4*12*0.9,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C20,G5,0,='Flujo mensual'!G6,0,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C20,F6,0,,='Flujo mensual'!G6,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C20,D7,Total Ingresos,,Venta propiedades,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C20,E9,Año 0,Egresos,,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C20,D10,Amoblado,,Egresos,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C20,F10,0,='Flujo mensual'!C11,Año 1,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C20,F14,0,='Flujo mensual'!P14,=-'Crédito Comercial 20A'!$H$8*12,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C20,G15,0,='Flujo mensual'!P15,0,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C20,G16,0,='Flujo mensual'!P16,0,OUTPUT_CANDIDATO_CORE
+Flujo 5 años C20,D25,Flujo acumulado,,Flujo Anual Proy. Puro (+ C.F.),OUTPUT_CANDIDATO_CORE
+Flujo 5 años C20,D36,Flujo anual acumulado,,Flujo caja anual,OUTPUT_CANDIDATO_CORE

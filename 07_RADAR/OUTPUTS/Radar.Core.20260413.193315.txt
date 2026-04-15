@@ -1,0 +1,520 @@
+﻿============================================================
+RADAR.CORE
+============================================================
+
+ROOT: C:\01. GitHub\BeSmart15dModel
+GENERATED: 2026-04-13 19:33:15
+
+------------------------------------------------------------
+FILE: 00_ADMIN\CONVENCIONES.OPERATIVAS.txt
+------------------------------------------------------------
+
+============================================================
+CONVENCIONES.OPERATIVAS.txt
+============================================================
+
+1. Evidencia
+- El archivo original va en 01_RAW\ORIGINAL
+- No se abre ni guarda sobre el original
+- Toda manipulaciÃ³n se hace sobre copia en 01_RAW\WORKING_COPY
+
+2. Nomenclatura sugerida
+- yyyymmdd.hhmm_nombre.ext
+- yyyymmddhhmm_tag para branch/tag si aplica
+
+3. Hash
+- Preferencia: SHA256
+- Registrar nombre, tamaÃ±o, fecha y hash
+
+4. Trazabilidad mÃ­nima
+- hoja
+- celda/rango
+- fÃ³rmula
+- dependencia
+- output afectado
+- criticidad
+- riesgo
+
+5. SeparaciÃ³n lÃ³gica
+- HUMAN  = documentaciÃ³n pedagÃ³gica / narrativa extensa
+- BATON  = continuidad operativa
+- AUDIT  = evidencia dura
+- ANALYSIS = interpretaciÃ³n tÃ©cnica sustentada
+
+6. Regla
+- Primero anatomÃ­a
+- Luego fisiologÃ­a
+- Luego validaciÃ³n financiera
+- Luego clonaciÃ³n
+
+------------------------------------------------------------
+FILE: 01_RAW\RAW.README.txt
+------------------------------------------------------------
+
+============================================================
+RAW.README.txt
+============================================================
+
+UbicaciÃ³n de evidencia fuente.
+
+Subcarpetas:
+- ORIGINAL     = archivo original intacto
+- WORKING_COPY = copia de trabajo
+- EXPORTS      = exportaciones derivadas del Excel o herramientas
+
+AcciÃ³n requerida:
+- Copia manualmente aquÃ­ el Excel adjunto.
+- No puedo copiar automÃ¡ticamente el archivo desde ChatGPT a tu disco local.
+
+------------------------------------------------------------
+FILE: 02_AUDIT\HASH\HASH.REGISTRY.csv
+------------------------------------------------------------
+
+timestamp_utc,file_name,file_path,size_bytes,last_write_time_utc,sha256,status,notes
+
+------------------------------------------------------------
+FILE: 02_AUDIT\LOGS\AUDIT.LOG.txt
+------------------------------------------------------------
+
+============================================================
+AUDIT.LOG.txt
+============================================================
+
+[2026-04-13 23:31:38 UTC] Proyecto inicializado.
+[2026-04-13 23:31:38 UTC] Estructura creada.
+[2026-04-13 23:31:38 UTC] Pendiente copiar archivo original a 01_RAW\ORIGINAL.
+[2026-04-13 23:31:38 UTC] Pendiente registrar hash SHA256.
+[2026-04-13 23:31:38 UTC] Pendiente ejecutar RADAR.
+
+------------------------------------------------------------
+FILE: 02_AUDIT\TABLES\11.01_INVENTARIO_DE_HOJAS.csv
+------------------------------------------------------------
+
+hoja,estado,descripcion,criticidad
+
+------------------------------------------------------------
+FILE: 02_AUDIT\TABLES\11.02_INVENTARIO_DE_CELDAS_CRITICAS.csv
+------------------------------------------------------------
+
+hoja,celda,valor_mostrado,valor_real,formula,clasificacion,criticidad,dependencia_input,dependencia_output
+
+------------------------------------------------------------
+FILE: 02_AUDIT\TABLES\11.03_MATRIZ_DE_DEPENDENCIAS.csv
+------------------------------------------------------------
+
+origen,destino,tipo_relacion
+
+------------------------------------------------------------
+FILE: 02_AUDIT\TABLES\11.04_INVENTARIO_DE_INPUTS.csv
+------------------------------------------------------------
+
+hoja,celda,tipo,validacion,observacion
+
+------------------------------------------------------------
+FILE: 02_AUDIT\TABLES\11.05_INVENTARIO_DE_OUTPUTS_CLAVE.csv
+------------------------------------------------------------
+
+hoja,celda,descripcion,criticidad
+
+------------------------------------------------------------
+FILE: 02_AUDIT\TABLES\11.06_INVENTARIO_DE_CONSTANTES_EMBEBIDAS.csv
+------------------------------------------------------------
+
+hoja,celda,formula,constante_detectada,impacto
+
+------------------------------------------------------------
+FILE: 02_AUDIT\TABLES\11.07_INVENTARIO_DE_FUNCIONES_VOLATILES.csv
+------------------------------------------------------------
+
+hoja,celda,funcion,impacto
+
+------------------------------------------------------------
+FILE: 02_AUDIT\TABLES\11.08_INVENTARIO_DE_ERRORES.csv
+------------------------------------------------------------
+
+hoja,celda,tipo_error,impacto
+
+------------------------------------------------------------
+FILE: 02_AUDIT\TABLES\11.09_MAPA_DE_HOJAS_Y_FLUJO_GENERAL.csv
+------------------------------------------------------------
+
+hoja_origen,hoja_destino,tipo_flujo,descripcion
+
+------------------------------------------------------------
+FILE: 02_AUDIT\TABLES\11.10_LISTA_DE_RIESGOS_TECNICOS_Y_FINANCIEROS.csv
+------------------------------------------------------------
+
+tipo,ubicacion,descripcion,impacto
+
+------------------------------------------------------------
+FILE: 02_AUDIT\TABLES\11.11_RANKING_DE_CRITICIDAD_POR_HOJA.csv
+------------------------------------------------------------
+
+hoja,criticidad,justificacion
+
+------------------------------------------------------------
+FILE: 02_AUDIT\TABLES\11.12_RANKING_DE_CRITICIDAD_POR_OUTPUT.csv
+------------------------------------------------------------
+
+output,ubicacion,criticidad,justificacion
+
+------------------------------------------------------------
+FILE: 02_AUDIT\TABLES\11.13_RANKING_DE_RIESGO_POR_COMPONENTE.csv
+------------------------------------------------------------
+
+componente,ubicacion,riesgo,justificacion
+
+------------------------------------------------------------
+FILE: 04_HUMAN\01.0_HUMAN.START.txt
+------------------------------------------------------------
+
+============================================================
+01.0_HUMAN.START.txt
+============================================================
+
+Proyecto:
+BeSmart15dModel
+
+PropÃ³sito:
+Documento humano principal para explicar:
+- quÃ© se estÃ¡ auditando
+- quÃ© ya se confirmÃ³
+- quÃ© sigue pendiente
+- quÃ© riesgos existen
+- quÃ© hallazgos estructurales y financieros aparecen
+
+Estado inicial:
+- estructura creada
+- pendiente ingresar archivo original en RAW\ORIGINAL
+- pendiente ejecutar RADAR
+- pendiente hash
+- pendiente copia de trabajo
+
+SecciÃ³n sugerida futura:
+1. contexto
+2. evidencia disponible
+3. inventario de hojas
+4. lÃ³gica general
+5. outputs clave
+6. riesgos tÃ©cnicos
+7. riesgos financieros
+8. plan de clonaciÃ³n
+9. plan de pruebas
+
+------------------------------------------------------------
+FILE: 05_BATON\BATON.ACTIVE.txt
+------------------------------------------------------------
+
+============================================================
+BATON.ACTIVE.txt
+============================================================
+
+PROJECT_ID: BeSmart15dModel
+PROJECT_TYPE: Excel forensic audit / reverse engineering / financial validation
+STATUS: ACTIVE
+PHASE: FASE 1 - AnatomÃ­a y trazabilidad
+LAST_UPDATE_UTC: 2026-04-13 23:31:38 UTC
+
+CURRENT_OBJECTIVE:
+- Ingresar archivo original
+- Registrar hash
+- Ejecutar RADAR
+- Preparar working copy
+- Iniciar inventario estructural
+
+CONFIRMED:
+- El alcance incluye lÃ³gica Excel y razonabilidad financiera inmobiliaria de supuestos y outputs.
+- No se debe automatizar ni clonar en esta fase sin antes entender y validar.
+
+PENDING:
+- Nombre exacto del archivo en RAW local
+- Hash SHA256 del original
+- Inventario de hojas
+- DetecciÃ³n de nombres definidos, vÃ­nculos, macros, queries y outputs clave
+
+RISKS:
+- Archivo podrÃ­a tener componentes ocultos o vÃ­nculos externos
+- Consistencia matemÃ¡tica no implica veracidad financiera
+- Posibles residuos histÃ³ricos / hojas muertas / reportes no conectados
+
+NEXT_ACTION:
+- Copiar Excel a 01_RAW\ORIGINAL
+- Ejecutar 07_RADAR\RADAR.ps1 -Root "C:\01. GitHub\BeSmart15dModel" -Mode All
+
+NEXT_READY_ITEM:
+- Crear HASH.REGISTRY.csv
+- Crear WORKING_COPY
+- Empezar AUDIT.LOG.txt
+
+EVIDENCE_ANCHOR:
+- estructura base creada
+- sin hash aÃºn
+- sin radar aÃºn
+- sin working copy aÃºn
+
+------------------------------------------------------------
+FILE: 06_TOOLS\UTILS\NEW-WORKING-COPY.ps1
+------------------------------------------------------------
+
+[CmdletBinding()]
+param(
+    [Parameter(Mandatory = $true)]
+    [string]$SourceFile,
+
+    [Parameter(Mandatory = $false)]
+    [string]$ProjectRoot = "C:\01. GitHub\BeSmart15dModel"
+)
+
+$ErrorActionPreference = "Stop"
+
+if (-not (Test-Path -LiteralPath $SourceFile)) {
+    throw "SourceFile no existe: $SourceFile"
+}
+
+$srcItem = Get-Item -LiteralPath $SourceFile
+$destDir = Join-Path $ProjectRoot '01_RAW\WORKING_COPY'
+if (-not (Test-Path -LiteralPath $destDir)) {
+    New-Item -ItemType Directory -Path $destDir -Force | Out-Null
+}
+
+$stamp = Get-Date -Format 'yyyyMMdd.HHmmss'
+$destFile = Join-Path $destDir ("{0}.{1}{2}" -f $srcItem.BaseName, $stamp, $srcItem.Extension)
+
+Copy-Item -LiteralPath $SourceFile -Destination $destFile -Force
+Write-Host "WORKING COPY creada:"
+Write-Host $destFile
+
+------------------------------------------------------------
+FILE: 06_TOOLS\UTILS\REGISTER-HASH.ps1
+------------------------------------------------------------
+
+[CmdletBinding()]
+param(
+    [Parameter(Mandatory = $true)]
+    [string]$FilePath,
+
+    [Parameter(Mandatory = $false)]
+    [string]$ProjectRoot = "C:\01. GitHub\BeSmart15dModel"
+)
+
+$ErrorActionPreference = "Stop"
+
+if (-not (Test-Path -LiteralPath $FilePath)) {
+    throw "Archivo no existe: $FilePath"
+}
+
+$hash = Get-FileHash -LiteralPath $FilePath -Algorithm SHA256
+$item = Get-Item -LiteralPath $FilePath
+
+$csvPath = Join-Path $ProjectRoot '02_AUDIT\HASH\HASH.REGISTRY.csv'
+if (-not (Test-Path -LiteralPath $csvPath)) {
+    'timestamp_utc,file_name,file_path,size_bytes,last_write_time_utc,sha256,status,notes' | Set-Content -LiteralPath $csvPath -Encoding UTF8
+}
+
+$row = [pscustomobject]@{
+    timestamp_utc        = (Get-Date).ToUniversalTime().ToString('yyyy-MM-dd HH:mm:ss')
+    file_name            = $item.Name
+    file_path            = $item.FullName
+    size_bytes           = $item.Length
+    last_write_time_utc  = $item.LastWriteTimeUtc.ToString('yyyy-MM-dd HH:mm:ss')
+    sha256               = $hash.Hash
+    status               = 'REGISTERED'
+    notes                = ''
+}
+
+$row | Export-Csv -LiteralPath $csvPath -Append -NoTypeInformation -Encoding UTF8
+Write-Host "HASH registrado en: $csvPath"
+Write-Host "SHA256: $($hash.Hash)"
+
+------------------------------------------------------------
+FILE: 07_RADAR\RADAR.ps1
+------------------------------------------------------------
+
+[CmdletBinding()]
+param(
+    [Parameter(Mandatory = $false)]
+    [string]$Root = "C:\01. GitHub\BeSmart15dModel",
+
+    [Parameter(Mandatory = $false)]
+    [ValidateSet("Index","Core","All")]
+    [string]$Mode = "All"
+)
+
+$ErrorActionPreference = "Stop"
+
+function Ensure-Directory {
+    param([Parameter(Mandatory = $true)][string]$Path)
+    if (-not (Test-Path -LiteralPath $Path)) {
+        New-Item -ItemType Directory -Path $Path -Force | Out-Null
+    }
+}
+
+function Get-RelativePathSafe {
+    param(
+        [Parameter(Mandatory = $true)][string]$BasePath,
+        [Parameter(Mandatory = $true)][string]$TargetPath
+    )
+    try {
+        $baseUri   = [System.Uri]((Resolve-Path -LiteralPath $BasePath).Path.TrimEnd('\') + '\')
+        $targetUri = [System.Uri]((Resolve-Path -LiteralPath $TargetPath).Path)
+        $relUri    = $baseUri.MakeRelativeUri($targetUri)
+        return [System.Uri]::UnescapeDataString($relUri.ToString()).Replace('/', '\')
+    }
+    catch {
+        return $TargetPath
+    }
+}
+
+if (-not (Test-Path -LiteralPath $Root)) {
+    throw "Root no existe: $Root"
+}
+
+$OutputDir = Join-Path $Root '07_RADAR\OUTPUTS'
+Ensure-Directory -Path $OutputDir
+
+$Stamp = (Get-Date).ToString('yyyyMMdd.HHmmss')
+$IndexPath = Join-Path $OutputDir ("Radar.Index.{0}.txt" -f $Stamp)
+$CorePath  = Join-Path $OutputDir ("Radar.Core.{0}.txt"  -f $Stamp)
+
+$allFiles = Get-ChildItem -LiteralPath $Root -Recurse -File -Force |
+    Where-Object {
+        $_.FullName -notmatch '\\07_RADAR\\OUTPUTS\\'
+    } |
+    Sort-Object FullName
+
+if ($Mode -in @('Index','All')) {
+    $indexLines = New-Object System.Collections.Generic.List[string]
+    $indexLines.Add("============================================================")
+    $indexLines.Add("RADAR.INDEX")
+    $indexLines.Add("============================================================")
+    $indexLines.Add("")
+    $indexLines.Add("ROOT: $Root")
+    $indexLines.Add("GENERATED: $((Get-Date).ToString('yyyy-MM-dd HH:mm:ss'))")
+    $indexLines.Add("TOTAL_FILES: $($allFiles.Count)")
+    $indexLines.Add("")
+    $indexLines.Add("RELATIVE_PATH`tEXT`tSIZE_BYTES`tLAST_WRITE")
+    foreach ($f in $allFiles) {
+        $rel = Get-RelativePathSafe -BasePath $Root -TargetPath $f.FullName
+        $line = "{0}`t{1}`t{2}`t{3}" -f $rel, $f.Extension, $f.Length, $f.LastWriteTime.ToString('yyyy-MM-dd HH:mm:ss')
+        $indexLines.Add($line)
+    }
+    Set-Content -LiteralPath $IndexPath -Value $indexLines -Encoding UTF8
+}
+
+if ($Mode -in @('Core','All')) {
+    $coreLines = New-Object System.Collections.Generic.List[string]
+    $coreLines.Add("============================================================")
+    $coreLines.Add("RADAR.CORE")
+    $coreLines.Add("============================================================")
+    $coreLines.Add("")
+    $coreLines.Add("ROOT: $Root")
+    $coreLines.Add("GENERATED: $((Get-Date).ToString('yyyy-MM-dd HH:mm:ss'))")
+    $coreLines.Add("")
+
+    $includeExt = @('.txt', '.ps1', '.psm1', '.json', '.csv', '.md', '.yaml', '.yml', '.xml')
+    $coreFiles = $allFiles | Where-Object { $includeExt -contains $_.Extension.ToLowerInvariant() }
+
+    foreach ($f in $coreFiles) {
+        $rel = Get-RelativePathSafe -BasePath $Root -TargetPath $f.FullName
+        $coreLines.Add("------------------------------------------------------------")
+        $coreLines.Add("FILE: $rel")
+        $coreLines.Add("------------------------------------------------------------")
+        $coreLines.Add("")
+        try {
+            $content = Get-Content -LiteralPath $f.FullName -ErrorAction Stop
+            if ($null -eq $content -or $content.Count -eq 0) {
+                $coreLines.Add("[EMPTY]")
+            }
+            else {
+                foreach ($line in $content) {
+                    $coreLines.Add([string]$line)
+                }
+            }
+        }
+        catch {
+            $coreLines.Add("[UNREADABLE] $($_.Exception.Message)")
+        }
+        $coreLines.Add("")
+    }
+
+    Set-Content -LiteralPath $CorePath -Value $coreLines -Encoding UTF8
+}
+
+Write-Host "RADAR generado correctamente."
+if (Test-Path -LiteralPath $IndexPath) { Write-Host "INDEX: $IndexPath" }
+if (Test-Path -LiteralPath $CorePath)  { Write-Host "CORE : $CorePath"  }
+
+------------------------------------------------------------
+FILE: 09_EXPORTS\BOOTSTRAP.RESULT.txt
+------------------------------------------------------------
+
+============================================================
+BOOTSTRAP.RESULT.txt
+============================================================
+
+Creado:
+2026-04-13 23:31:38 UTC
+
+Root:
+C:\01. GitHub\BeSmart15dModel
+
+Siguientes comandos sugeridos:
+
+1) Ejecutar RADAR
+powershell -ExecutionPolicy Bypass -File "C:\01. GitHub\BeSmart15dModel\07_RADAR\RADAR.ps1" -Root "C:\01. GitHub\BeSmart15dModel" -Mode All
+
+2) Registrar hash del Excel original
+powershell -ExecutionPolicy Bypass -File "C:\01. GitHub\BeSmart15dModel\06_TOOLS\UTILS\REGISTER-HASH.ps1" -FilePath "C:\RUTA\AL\ARCHIVO.xlsx" -ProjectRoot "C:\01. GitHub\BeSmart15dModel"
+
+3) Crear working copy
+powershell -ExecutionPolicy Bypass -File "C:\01. GitHub\BeSmart15dModel\06_TOOLS\UTILS\NEW-WORKING-COPY.ps1" -SourceFile "C:\RUTA\AL\ARCHIVO.xlsx" -ProjectRoot "C:\01. GitHub\BeSmart15dModel"
+
+------------------------------------------------------------
+FILE: README.txt
+------------------------------------------------------------
+
+============================================================
+BeSmart15dModel
+============================================================
+
+Proyecto:
+IngenierÃ­a inversa, auditorÃ­a forense, validaciÃ³n financiera y clonaciÃ³n
+de planilla Excel Be Smart 15 departamentos - Fase 1
+
+Creado:
+2026-04-13 23:31:38 UTC
+
+Objetivo operativo:
+- preservar evidencia
+- inventariar estructura
+- trazar dependencias
+- auditar lÃ³gica
+- evaluar razonabilidad financiera
+- preparar estrategia de clonaciÃ³n
+- preparar validaciÃ³n del clon
+
+Reglas base:
+- no modificar el original
+- trabajar sobre copia
+- registrar hashes
+- no afirmar certeza sin evidencia
+- separar evidencia, anÃ¡lisis, narrativa y continuidad
+
+Mapa:
+- 01_RAW         = evidencia fuente
+- 02_AUDIT       = tablas, logs, evidencia forense
+- 03_ANALYSIS    = anÃ¡lisis tÃ©cnico / financiero
+- 04_HUMAN       = documentaciÃ³n extensa para humano
+- 05_BATON       = continuidad operativa entre sesiones
+- 06_TOOLS       = scripts y utilitarios
+- 07_RADAR       = inventario transversal del proyecto
+- 08_CLONE       = futuro clon .IA
+- 09_EXPORTS     = entregables exportables
+
+AcciÃ³n inmediata:
+1. Copiar el Excel original a 01_RAW\ORIGINAL
+2. Ejecutar 07_RADAR\RADAR.ps1
+3. Registrar hash del archivo
+4. Crear copia de trabajo en 01_RAW\WORKING_COPY
+5. Iniciar inventario estructural
+

@@ -1,0 +1,14 @@
+﻿============================================================
+RAW.README.txt
+============================================================
+
+UbicaciÃ³n de evidencia fuente.
+
+Subcarpetas:
+- ORIGINAL     = archivo original intacto
+- WORKING_COPY = copia de trabajo
+- EXPORTS      = exportaciones derivadas del Excel o herramientas
+
+AcciÃ³n requerida:
+- Copia manualmente aquÃ­ el Excel adjunto.
+- No puedo copiar automÃ¡ticamente el archivo desde ChatGPT a tu disco local.

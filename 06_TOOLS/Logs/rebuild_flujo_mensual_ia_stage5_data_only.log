@@ -1,0 +1,8 @@
+[2026-04-15 22:23:47 UTC] Inicio rebuild_flujo_mensual_ia_stage5_data_only.
+[2026-04-15 22:23:47 UTC] Stage4 clone seleccionado: C:\01. GitHub\BeSmart15dModel\08_CLONE\Evaluación negocio Negocio Be Smart 1 (15 U. 28% Dcto-Bono Pie-5 años créd perfil 12).20260413.193341.stage4.IA.xlsx
+[2026-04-15 22:23:47 UTC] Working copy fuente para data_only: C:\01. GitHub\BeSmart15dModel\01_RAW\WORKING_COPY\Evaluación negocio Negocio Be Smart 1 (15 U. 28% Dcto-Bono Pie-5 años créd perfil 12).20260413.193341.xlsx
+[2026-04-15 22:23:47 UTC] Q4 (rent market + gc): raw=715206.3554701195 num=715206.3554701195
+[2026-04-15 22:23:47 UTC] Q7 (furniture capex): raw=2500000 num=2500000.0
+[2026-04-15 22:23:47 UTC] Q10/Q13/Q16/Q19/Q28/Q31 expense total=22990059.174039386
+[2026-04-15 22:23:47 UTC] Workbook stage5 guardado: C:\01. GitHub\BeSmart15dModel\08_CLONE\Evaluación negocio Negocio Be Smart 1 (15 U. 28% Dcto-Bono Pie-5 años créd perfil 12).20260413.193341.stage5.IA.xlsx
+[2026-04-15 22:23:47 UTC] Proceso completado OK.

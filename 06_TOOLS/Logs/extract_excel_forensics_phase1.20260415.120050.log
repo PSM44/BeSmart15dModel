@@ -1,0 +1,41 @@
+============================================================
+RUN.LOG
+============================================================
+TIMESTAMP: 2026-04-15 12:00:51
+PROJECT_ROOT: C:\01. GitHub\BeSmart15dModel
+SCRIPT_PATH: C:\01. GitHub\BeSmart15dModel\06_TOOLS\EXTRACTION\extract_excel_forensics_phase1.py
+
+================ PYTHON EXECUTION ================
+C:\01. GitHub\BeSmart15dModel\.venv\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Conditional Formatting extension is not supported and will be removed
+  warn(msg)
+{
+  "timestamp_utc": "2026-04-15 16:00:52 UTC",
+  "project_root": "C:\\01. GitHub\\BeSmart15dModel",
+  "workbook_name": "Evaluaci≤n negocio Negocio Be Smart 1 (15 U. 28% Dcto-Bono Pie-5 a±os crΘd perfil 12).20260413.193341.xlsx",
+  "workbook_path": "C:\\01. GitHub\\BeSmart15dModel\\01_RAW\\WORKING_COPY\\Evaluaci≤n negocio Negocio Be Smart 1 (15 U. 28% Dcto-Bono Pie-5 a±os crΘd perfil 12).20260413.193341.xlsx",
+  "sheet_count": 12,
+  "formula_count": 3640,
+  "error_count": 0,
+  "defined_names_count": 0,
+  "validation_count": 0,
+  "merged_ranges_count": 13,
+  "external_links_count": 0,
+  "comments_count": 0,
+  "outputs_detected_count": 280,
+  "inputs_detected_count": 80,
+  "critical_cells_count": 3755,
+  "dependencies_count": 6568,
+  "limitations": [
+    "No cobertura completa de VBA/eventos.",
+    "No cobertura completa de Power Query/Power Pivot.",
+    "No cobertura completa de objetos visuales complejos.",
+    "Heurφsticas de OUTPUT e INPUT requieren validaci≤n humana."
+  ],
+  "defined_names": []
+}
+================ FILES GENERATED ================
+RUN_LOG: C:\01. GitHub\BeSmart15dModel\06_TOOLS\Logs\extract_excel_forensics_phase1.20260415.120050.log
+SUMMARY_COPY: C:\01. GitHub\BeSmart15dModel\06_TOOLS\Logs\EXTRACT.PHASE1.SUMMARY.20260415.120050.json
+SHEETS_PREVIEW: C:\01. GitHub\BeSmart15dModel\06_TOOLS\Logs\11.01_INVENTARIO_DE_HOJAS.20260415.120050.preview.txt
+OUTPUTS_PREVIEW: C:\01. GitHub\BeSmart15dModel\06_TOOLS\Logs\11.05_INVENTARIO_DE_OUTPUTS_CLAVE.20260415.120050.preview.txt
+FLOW_PREVIEW: C:\01. GitHub\BeSmart15dModel\06_TOOLS\Logs\11.09_MAPA_DE_HOJAS_Y_FLUJO_GENERAL.20260415.120050.preview.txt

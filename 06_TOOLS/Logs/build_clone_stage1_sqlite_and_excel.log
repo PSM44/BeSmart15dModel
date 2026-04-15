@@ -1,0 +1,27 @@
+[2026-04-15 21:56:42 UTC] Inicio build_clone_stage1_sqlite_and_excel.
+[2026-04-15 21:56:42 UTC] Working copy seleccionada: C:\01. GitHub\BeSmart15dModel\01_RAW\WORKING_COPY\Evaluación negocio Negocio Be Smart 1 (15 U. 28% Dcto-Bono Pie-5 años créd perfil 12).20260413.193341.xlsx
+[2026-04-15 21:56:42 UTC] CSV importado: C:\01. GitHub\BeSmart15dModel\02_AUDIT\CORE\CORE.INPUTS.csv -> core_inputs (31 rows)
+[2026-04-15 21:56:42 UTC] CSV importado: C:\01. GitHub\BeSmart15dModel\02_AUDIT\CORE\CORE.OUTPUTS.csv -> core_outputs (84 rows)
+[2026-04-15 21:56:42 UTC] CSV importado: C:\01. GitHub\BeSmart15dModel\02_AUDIT\CORE\CORE.CONSTANTES.csv -> core_constantes (117 rows)
+[2026-04-15 21:56:42 UTC] CSV importado: C:\01. GitHub\BeSmart15dModel\02_AUDIT\CORE\CORE.DEPENDENCIAS.csv -> core_dependencias (1171 rows)
+[2026-04-15 21:56:42 UTC] CSV importado: C:\01. GitHub\BeSmart15dModel\02_AUDIT\RENDER_METADATA\RENDER.SHEETS.csv -> render_sheets (12 rows)
+[2026-04-15 21:56:42 UTC] CSV importado: C:\01. GitHub\BeSmart15dModel\02_AUDIT\RENDER_METADATA\RENDER.CELLS.csv -> render_cells (17171 rows)
+[2026-04-15 21:56:42 UTC] CSV importado: C:\01. GitHub\BeSmart15dModel\02_AUDIT\RENDER_METADATA\RENDER.MERGES.csv -> render_merges (13 rows)
+[2026-04-15 21:56:42 UTC] CSV importado: C:\01. GitHub\BeSmart15dModel\02_AUDIT\RENDER_METADATA\RENDER.COLUMNS.csv -> render_columns (191 rows)
+[2026-04-15 21:56:42 UTC] CSV importado: C:\01. GitHub\BeSmart15dModel\02_AUDIT\RENDER_METADATA\RENDER.ROWS.csv -> render_rows (37 rows)
+[2026-04-15 21:56:42 UTC] CSV importado: C:\01. GitHub\BeSmart15dModel\02_AUDIT\RENDER_METADATA\RENDER.FREEZE_PANES.csv -> render_freeze_panes (12 rows)
+[2026-04-15 21:56:42 UTC] CSV importado: C:\01. GitHub\BeSmart15dModel\02_AUDIT\RENDER_METADATA\RENDER.PRINT_SETUP.csv -> render_print_setup (12 rows)
+[2026-04-15 21:56:42 UTC] Hoja duplicada: Resumen -> Resumen.IA
+[2026-04-15 21:56:42 UTC] Hoja duplicada: IVA Dptos -> IVA Dptos.IA
+[2026-04-15 21:56:42 UTC] Hoja duplicada: Hoja1 -> Hoja1.IA
+[2026-04-15 21:56:42 UTC] Hoja duplicada: Arriendo -> Arriendo.IA
+[2026-04-15 21:56:42 UTC] Hoja duplicada: Flujo mensual -> Flujo mensual.IA
+[2026-04-15 21:56:42 UTC] Hoja duplicada: Flujo 5 años C12 -> Flujo 5 años C12.IA
+[2026-04-15 21:56:42 UTC] Hoja duplicada: Flujo 5 años C12 (2) -> Flujo 5 años C12 (2).IA
+[2026-04-15 21:56:42 UTC] Hoja duplicada: Crédito Comercial 12A -> Crédito Comercial 12A.IA
+[2026-04-15 21:56:42 UTC] Hoja duplicada: Crédito C12 -> Crédito C12.IA
+[2026-04-15 21:56:42 UTC] Hoja duplicada: Flujo 5 años C20 -> Flujo 5 años C20.IA
+[2026-04-15 21:56:42 UTC] Hoja duplicada: Crédito Comercial 20A -> Crédito Comercial 20A.IA
+[2026-04-15 21:56:42 UTC] Hoja duplicada: Crédito C20 -> Crédito C20.IA
+[2026-04-15 21:56:42 UTC] Workbook clon stage1 guardado: C:\01. GitHub\BeSmart15dModel\08_CLONE\Evaluación negocio Negocio Be Smart 1 (15 U. 28% Dcto-Bono Pie-5 años créd perfil 12).20260413.193341.stage1.IA.xlsx
+[2026-04-15 21:56:42 UTC] Proceso completado OK.

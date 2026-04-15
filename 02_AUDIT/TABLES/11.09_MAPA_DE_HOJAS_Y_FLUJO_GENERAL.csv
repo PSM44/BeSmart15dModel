@@ -1,0 +1,32 @@
+﻿hoja_origen,hoja_destino,tipo_flujo,descripcion
+Arriendo,Flujo mensual,AGREGACION,48 referencias detectadas desde fórmulas
+Crédito C12,Flujo 5 años C12,TRANSFORMACION,5 referencias detectadas desde fórmulas
+Crédito C12,Flujo 5 años C12 (2),TRANSFORMACION,5 referencias detectadas desde fórmulas
+Crédito C20,Flujo 5 años C20,TRANSFORMACION,5 referencias detectadas desde fórmulas
+Crédito Comercial 12A,Arriendo,REFERENCIA,1 referencias detectadas desde fórmulas
+Crédito Comercial 12A,Flujo 5 años C12,REFERENCIA,2 referencias detectadas desde fórmulas
+Crédito Comercial 12A,Flujo 5 años C12 (2),REFERENCIA,2 referencias detectadas desde fórmulas
+Crédito Comercial 12A,Flujo 5 años C20,REFERENCIA,1 referencias detectadas desde fórmulas
+Crédito Comercial 12A,Flujo mensual,TRANSFORMACION,12 referencias detectadas desde fórmulas
+Crédito Comercial 12A,Resumen,REFERENCIA,2 referencias detectadas desde fórmulas
+Crédito Comercial 20A,Flujo 5 años C12 (2),REFERENCIA,1 referencias detectadas desde fórmulas
+Crédito Comercial 20A,Flujo 5 años C20,TRANSFORMACION,6 referencias detectadas desde fórmulas
+Flujo 5 años C12,Crédito C12,TRANSFORMACION,6 referencias detectadas desde fórmulas
+Flujo 5 años C12,Crédito C20,REFERENCIA,2 referencias detectadas desde fórmulas
+Flujo 5 años C12,Flujo 5 años C12 (2),REFERENCIA,1 referencias detectadas desde fórmulas
+Flujo 5 años C12,Resumen,TRANSFORMACION,7 referencias detectadas desde fórmulas
+Flujo 5 años C20,Crédito C20,REFERENCIA,3 referencias detectadas desde fórmulas
+Flujo 5 años C20,Flujo 5 años C12 (2),AGREGACION,145 referencias detectadas desde fórmulas
+Flujo 5 años C20,Resumen,REFERENCIA,4 referencias detectadas desde fórmulas
+Flujo mensual,Flujo 5 años C12,AGREGACION,36 referencias detectadas desde fórmulas
+Flujo mensual,Flujo 5 años C12 (2),AGREGACION,36 referencias detectadas desde fórmulas
+Flujo mensual,Flujo 5 años C20,AGREGACION,31 referencias detectadas desde fórmulas
+IVA Dptos,Arriendo,TRANSFORMACION,17 referencias detectadas desde fórmulas
+IVA Dptos,Crédito Comercial 12A,REFERENCIA,3 referencias detectadas desde fórmulas
+IVA Dptos,Crédito Comercial 20A,REFERENCIA,1 referencias detectadas desde fórmulas
+IVA Dptos,Flujo 5 años C12,REFERENCIA,1 referencias detectadas desde fórmulas
+IVA Dptos,Flujo 5 años C12 (2),REFERENCIA,1 referencias detectadas desde fórmulas
+IVA Dptos,Flujo 5 años C20,REFERENCIA,1 referencias detectadas desde fórmulas
+IVA Dptos,Flujo mensual,REFERENCIA,1 referencias detectadas desde fórmulas
+IVA Dptos,Hoja1,AGREGACION,31 referencias detectadas desde fórmulas
+IVA Dptos,Resumen,REFERENCIA,1 referencias detectadas desde fórmulas

@@ -1,0 +1,32 @@
+﻿hoja,celda,valor,contexto,tipo
+Arriendo,F3,Valor Arriendo,Valor Arriendo | ,INPUT_CANDIDATO_CORE
+Arriendo,G3,Avalúo fiscal,Valor Arriendo | ,INPUT_CANDIDATO_CORE
+Arriendo,K3,IVA arriendo,Arriendo-(11% A.F (mes)) | ,INPUT_CANDIDATO_CORE
+Arriendo,L3,Ingresos arriendo (mes),IVA arriendo | ,INPUT_CANDIDATO_CORE
+Arriendo,R3,Arriendo U,Arriendo GGCC Incluido | ,INPUT_CANDIDATO_CORE
+Arriendo,S3,Total,Arriendo U | ,INPUT_CANDIDATO_CORE
+Arriendo,E4,715206.3554701195,702 | Valor Arriendo,INPUT_CANDIDATO_CORE
+Flujo mensual,B5,C. Fiscal Equip., | Arriendos,INPUT_CANDIDATO_CORE
+Flujo mensual,J16,0,=Arriendo!$R$22*3 | =Arriendo!$R$19*3,INPUT_CANDIDATO_CORE
+Flujo mensual,D17,0, | =Arriendo!$T$22,INPUT_CANDIDATO_CORE
+Flujo mensual,E18,0,0 | =Arriendo!$R$31*2,INPUT_CANDIDATO_CORE
+Flujo mensual,F18,0,0 | =Arriendo!$R$31*4,INPUT_CANDIDATO_CORE
+Flujo mensual,G18,0,0 | =Arriendo!$R$31*6,INPUT_CANDIDATO_CORE
+Flujo mensual,H18,0,0 | =Arriendo!$R$31*8,INPUT_CANDIDATO_CORE
+Flujo mensual,I18,0,0 | =Arriendo!$R$31*12,INPUT_CANDIDATO_CORE
+Flujo mensual,J18,0,0 | =Arriendo!$R$31*15,INPUT_CANDIDATO_CORE
+Flujo 5 años C12,D4,C. Fiscal Equip., | Arriendos,INPUT_CANDIDATO_CORE
+Flujo 5 años C12,D7,Total Ingresos, | Venta propiedades,INPUT_CANDIDATO_CORE
+Flujo 5 años C12,D22,Total Egresos, | Impuesto / Utilidades (se venden al mismo precio),INPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),D6,C. Fiscal Equip., | Arriendos,INPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),P6,C. Fiscal Equip., | Arriendos,INPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),D9,Total Ingresos, | Venta propiedades,INPUT_CANDIDATO_CORE
+Flujo 5 años C12 (2),P9,Total Ingresos, | Venta propiedades,INPUT_CANDIDATO_CORE
+Flujo 5 años C20,D4,C. Fiscal Equip., | Arriendos,INPUT_CANDIDATO_CORE
+Flujo 5 años C20,D7,Total Ingresos, | Venta propiedades,INPUT_CANDIDATO_CORE
+Flujo 5 años C20,F14,0,='Flujo mensual'!P14 | =-'Crédito Comercial 20A'!$H$8*12,INPUT_CANDIDATO_CORE
+Flujo 5 años C20,G14,0,0 | =-'Crédito Comercial 20A'!$H$8*12,INPUT_CANDIDATO_CORE
+Flujo 5 años C20,H14,0,0 | =-'Crédito Comercial 20A'!$H$8*12,INPUT_CANDIDATO_CORE
+Flujo 5 años C20,I14,0,0 | =-'Crédito Comercial 20A'!$H$8*12,INPUT_CANDIDATO_CORE
+Flujo 5 años C20,J14,0,0 | =-'Crédito Comercial 20A'!$H$8*12,INPUT_CANDIDATO_CORE
+Flujo 5 años C20,D22,Total Egresos, | Impuesto / Utilidades (se venden al mismo precio),INPUT_CANDIDATO_CORE

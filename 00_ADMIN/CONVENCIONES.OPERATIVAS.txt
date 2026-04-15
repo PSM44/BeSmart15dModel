@@ -1,0 +1,37 @@
+﻿============================================================
+CONVENCIONES.OPERATIVAS.txt
+============================================================
+
+1. Evidencia
+- El archivo original va en 01_RAW\ORIGINAL
+- No se abre ni guarda sobre el original
+- Toda manipulaciÃ³n se hace sobre copia en 01_RAW\WORKING_COPY
+
+2. Nomenclatura sugerida
+- yyyymmdd.hhmm_nombre.ext
+- yyyymmddhhmm_tag para branch/tag si aplica
+
+3. Hash
+- Preferencia: SHA256
+- Registrar nombre, tamaÃ±o, fecha y hash
+
+4. Trazabilidad mÃ­nima
+- hoja
+- celda/rango
+- fÃ³rmula
+- dependencia
+- output afectado
+- criticidad
+- riesgo
+
+5. SeparaciÃ³n lÃ³gica
+- HUMAN  = documentaciÃ³n pedagÃ³gica / narrativa extensa
+- BATON  = continuidad operativa
+- AUDIT  = evidencia dura
+- ANALYSIS = interpretaciÃ³n tÃ©cnica sustentada
+
+6. Regla
+- Primero anatomÃ­a
+- Luego fisiologÃ­a
+- Luego validaciÃ³n financiera
+- Luego clonaciÃ³n

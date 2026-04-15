@@ -1,0 +1,25 @@
+{
+  "timestamp_utc": "2026-04-15 16:00:52 UTC",
+  "project_root": "C:\\01. GitHub\\BeSmart15dModel",
+  "workbook_name": "Evaluación negocio Negocio Be Smart 1 (15 U. 28% Dcto-Bono Pie-5 años créd perfil 12).20260413.193341.xlsx",
+  "workbook_path": "C:\\01. GitHub\\BeSmart15dModel\\01_RAW\\WORKING_COPY\\Evaluación negocio Negocio Be Smart 1 (15 U. 28% Dcto-Bono Pie-5 años créd perfil 12).20260413.193341.xlsx",
+  "sheet_count": 12,
+  "formula_count": 3640,
+  "error_count": 0,
+  "defined_names_count": 0,
+  "validation_count": 0,
+  "merged_ranges_count": 13,
+  "external_links_count": 0,
+  "comments_count": 0,
+  "outputs_detected_count": 280,
+  "inputs_detected_count": 80,
+  "critical_cells_count": 3755,
+  "dependencies_count": 6568,
+  "limitations": [
+    "No cobertura completa de VBA/eventos.",
+    "No cobertura completa de Power Query/Power Pivot.",
+    "No cobertura completa de objetos visuales complejos.",
+    "Heurísticas de OUTPUT e INPUT requieren validación humana."
+  ],
+  "defined_names": []
+}

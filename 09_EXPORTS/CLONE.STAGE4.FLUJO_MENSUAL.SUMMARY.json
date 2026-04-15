@@ -1,0 +1,25 @@
+{
+  "timestamp_utc": "2026-04-15 22:18:55 UTC",
+  "source_stage3_clone": "C:\\01. GitHub\\BeSmart15dModel\\08_CLONE\\Evaluación negocio Negocio Be Smart 1 (15 U. 28% Dcto-Bono Pie-5 años créd perfil 12).20260413.193341.stage3.IA.xlsx",
+  "output_stage4_clone": "C:\\01. GitHub\\BeSmart15dModel\\08_CLONE\\Evaluación negocio Negocio Be Smart 1 (15 U. 28% Dcto-Bono Pie-5 años créd perfil 12).20260413.193341.stage4.IA.xlsx",
+  "target_sheet": "Flujo mensual.IA",
+  "explicit_mapping": {
+    "rent_market_plus_gc": "Arriendo!Q4",
+    "furniture_capex_excluded": "Arriendo!Q7",
+    "contribuciones": "Arriendo!Q10",
+    "dividendo": "Arriendo!Q13",
+    "gasto_operacional": "Arriendo!Q16",
+    "corretaje_arriendo": "Arriendo!Q19",
+    "imprevistos": "Arriendo!Q28",
+    "administracion": "Arriendo!Q31"
+  },
+  "values": {
+    "monthly_rent_base": 0.0,
+    "monthly_expense": 40000.0,
+    "monthly_income_effective": 0.0,
+    "monthly_net": -40000.0,
+    "annual_income_effective": 0.0,
+    "excluded_furniture_capex": 2500000.0
+  },
+  "status": "OK_STAGE4_EXPLICIT_BUSINESS_MAPPING"
+}

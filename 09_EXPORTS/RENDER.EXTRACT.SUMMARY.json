@@ -1,0 +1,25 @@
+{
+  "timestamp_utc": "2026-04-15 21:51:04 UTC",
+  "workbook": "C:\\01. GitHub\\BeSmart15dModel\\01_RAW\\WORKING_COPY\\Evaluación negocio Negocio Be Smart 1 (15 U. 28% Dcto-Bono Pie-5 años créd perfil 12).20260413.193341.xlsx",
+  "target_sheets_present": [
+    "Resumen",
+    "IVA Dptos",
+    "Hoja1",
+    "Arriendo",
+    "Flujo mensual",
+    "Flujo 5 años C12",
+    "Flujo 5 años C12 (2)",
+    "Crédito Comercial 12A",
+    "Crédito C12",
+    "Flujo 5 años C20",
+    "Crédito Comercial 20A",
+    "Crédito C20"
+  ],
+  "sheet_count": 12,
+  "cell_rows_count": 17171,
+  "merge_rows_count": 13,
+  "column_rows_count": 191,
+  "row_rows_count": 37,
+  "freeze_rows_count": 12,
+  "print_rows_count": 12
+}

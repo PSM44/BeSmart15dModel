@@ -1,0 +1,20 @@
+﻿============================================================
+BOOTSTRAP.RESULT.txt
+============================================================
+
+Creado:
+2026-04-13 23:31:38 UTC
+
+Root:
+C:\01. GitHub\BeSmart15dModel
+
+Siguientes comandos sugeridos:
+
+1) Ejecutar RADAR
+powershell -ExecutionPolicy Bypass -File "C:\01. GitHub\BeSmart15dModel\07_RADAR\RADAR.ps1" -Root "C:\01. GitHub\BeSmart15dModel" -Mode All
+
+2) Registrar hash del Excel original
+powershell -ExecutionPolicy Bypass -File "C:\01. GitHub\BeSmart15dModel\06_TOOLS\UTILS\REGISTER-HASH.ps1" -FilePath "C:\RUTA\AL\ARCHIVO.xlsx" -ProjectRoot "C:\01. GitHub\BeSmart15dModel"
+
+3) Crear working copy
+powershell -ExecutionPolicy Bypass -File "C:\01. GitHub\BeSmart15dModel\06_TOOLS\UTILS\NEW-WORKING-COPY.ps1" -SourceFile "C:\RUTA\AL\ARCHIVO.xlsx" -ProjectRoot "C:\01. GitHub\BeSmart15dModel"

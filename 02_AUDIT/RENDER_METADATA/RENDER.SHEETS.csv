@@ -1,0 +1,13 @@
+﻿sheet_name_original,sheet_name_ia,sheet_order,sheet_state,max_row,max_col,used_range,tab_color
+Resumen,Resumen.IA,1,visible,23,11,C2:K23,
+IVA Dptos,IVA Dptos.IA,2,visible,52,31,B1:AE52,
+Hoja1,Hoja1.IA,3,visible,18,16,A2:P18,
+Arriendo,Arriendo.IA,4,visible,31,20,A1:T31,
+Flujo mensual,Flujo mensual.IA,5,visible,37,19,B2:S37,
+Flujo 5 años C12,Flujo 5 años C12.IA,6,visible,47,18,B2:R47,FF92D050
+Flujo 5 años C12 (2),Flujo 5 años C12 (2).IA,7,visible,49,27,B2:AA49,FF92D050
+Crédito Comercial 12A,Crédito Comercial 12A.IA,8,visible,368,13,B2:M368,Values must be of type <class 'str'>
+Crédito C12,Crédito C12.IA,9,visible,9,64,A1:BL9,Values must be of type <class 'str'>
+Flujo 5 años C20,Flujo 5 años C20.IA,10,visible,47,18,B2:R47,FF92D050
+Crédito Comercial 20A,Crédito Comercial 20A.IA,11,visible,368,13,B2:M368,Values must be of type <class 'str'>
+Crédito C20,Crédito C20.IA,12,visible,9,64,A1:BL9,Values must be of type <class 'str'>

@@ -1,0 +1,192 @@
+﻿sheet_name,col_letter,width,hidden,bestFit
+Resumen,A,6.88671875,False,False
+Resumen,B,1.88671875,False,False
+Resumen,C,39.88671875,False,True
+Resumen,D,2.77734375,False,False
+Resumen,E,40.6640625,False,False
+Resumen,F,3.6640625,False,False
+Resumen,G,37.33203125,False,False
+Resumen,H,1.5546875,False,False
+Resumen,I,8.21875,False,False
+Resumen,J,33.33203125,False,True
+IVA Dptos,A,4.33203125,False,False
+IVA Dptos,B,9.77734375,False,True
+IVA Dptos,C,7.5546875,False,True
+IVA Dptos,D,11.0,False,True
+IVA Dptos,E,10.33203125,False,True
+IVA Dptos,F,9.6640625,False,False
+IVA Dptos,G,15.77734375,False,False
+IVA Dptos,H,14.6640625,False,False
+IVA Dptos,I,9.5546875,False,False
+IVA Dptos,K,15.5546875,False,False
+IVA Dptos,M,7.0,False,True
+IVA Dptos,N,10.77734375,False,False
+IVA Dptos,O,7.0,False,True
+IVA Dptos,P,9.0,False,True
+IVA Dptos,Q,14.5546875,False,True
+IVA Dptos,R,17.33203125,True,False
+IVA Dptos,S,1.5546875,False,False
+IVA Dptos,T,15.6640625,False,True
+IVA Dptos,U,1.5546875,False,False
+IVA Dptos,V,16.5546875,False,False
+IVA Dptos,W,1.5546875,False,False
+IVA Dptos,Y,3.77734375,False,True
+IVA Dptos,Z,4.109375,False,False
+IVA Dptos,AA,11.77734375,True,False
+IVA Dptos,AB,3.6640625,False,False
+IVA Dptos,AC,10.33203125,False,True
+IVA Dptos,AD,12.77734375,False,True
+IVA Dptos,AF,26.6640625,False,True
+Hoja1,B,7.6640625,False,True
+Hoja1,C,7.6640625,False,False
+Hoja1,D,14.88671875,False,True
+Hoja1,E,14.88671875,False,False
+Hoja1,H,13.88671875,False,True
+Hoja1,I,7.0,False,True
+Hoja1,N,15.44140625,False,True
+Arriendo,A,8.88671875,False,True
+Arriendo,B,6.109375,False,True
+Arriendo,C,3.0,False,True
+Arriendo,D,5.77734375,False,False
+Arriendo,E,16.33203125,False,True
+Arriendo,F,14.0,False,True
+Arriendo,G,12.88671875,False,True
+Arriendo,H,17.33203125,False,True
+Arriendo,I,13.21875,False,True
+Arriendo,J,13.0,False,False
+Arriendo,L,16.5546875,False,True
+Arriendo,M,2.77734375,False,False
+Arriendo,N,10.5546875,False,True
+Arriendo,O,6.109375,False,True
+Arriendo,P,2.0,False,False
+Arriendo,Q,31.44140625,False,True
+Arriendo,R,17.6640625,False,True
+Arriendo,S,11.33203125,False,True
+Arriendo,T,9.77734375,False,False
+Arriendo,V,12.44140625,False,True
+Arriendo,X,14.33203125,False,True
+Flujo mensual,B,17.44140625,False,True
+Flujo mensual,C,9.88671875,False,True
+Flujo mensual,E,12.6640625,False,True
+Flujo mensual,G,11.88671875,False,True
+Flujo mensual,O,12.44140625,False,True
+Flujo mensual,P,11.88671875,False,True
+Flujo mensual,S,12.44140625,False,True
+Flujo 5 años C12,A,3.109375,False,False
+Flujo 5 años C12,B,6.6640625,False,True
+Flujo 5 años C12,C,2.44140625,False,False
+Flujo 5 años C12,D,43.5546875,False,True
+Flujo 5 años C12,E,10.44140625,False,True
+Flujo 5 años C12,F,11.0,False,True
+Flujo 5 años C12,G,10.44140625,False,True
+Flujo 5 años C12,H,11.109375,False,True
+Flujo 5 años C12,I,11.5546875,False,True
+Flujo 5 años C12,K,6.109375,False,True
+Flujo 5 años C12,L,11.5546875,False,True
+Flujo 5 años C12,O,4.21875,False,False
+Flujo 5 años C12,P,17.44140625,False,True
+Flujo 5 años C12,Q,16.6640625,False,True
+Flujo 5 años C12,R,18.0,False,True
+Flujo 5 años C12,S,17.21875,False,True
+Flujo 5 años C12 (2),A,3.109375,False,False
+Flujo 5 años C12 (2),B,6.6640625,False,True
+Flujo 5 años C12 (2),C,1.5546875,False,False
+Flujo 5 años C12 (2),D,27.77734375,False,True
+Flujo 5 años C12 (2),E,10.0,True,False
+Flujo 5 años C12 (2),F,10.44140625,True,False
+Flujo 5 años C12 (2),H,11.109375,True,False
+Flujo 5 años C12 (2),J,11.5546875,True,False
+Flujo 5 años C12 (2),K,6.109375,True,False
+Flujo 5 años C12 (2),L,11.109375,True,False
+Flujo 5 años C12 (2),M,11.6640625,True,False
+Flujo 5 años C12 (2),N,11.5546875,False,True
+Flujo 5 años C12 (2),O,6.6640625,False,False
+Flujo 5 años C12 (2),P,27.77734375,False,True
+Flujo 5 años C12 (2),Q,16.6640625,True,False
+Flujo 5 años C12 (2),R,18.0,True,False
+Flujo 5 años C12 (2),S,17.21875,True,False
+Flujo 5 años C12 (2),T,11.5546875,True,False
+Flujo 5 años C12 (2),AA,1.21875,False,False
+Crédito Comercial 12A,A,3.21875,False,False
+Crédito Comercial 12A,B,19.33203125,False,True
+Crédito Comercial 12A,C,5.5546875,False,True
+Crédito Comercial 12A,E,14.6640625,False,True
+Crédito Comercial 12A,F,3.5546875,False,False
+Crédito Comercial 12A,H,9.5546875,False,True
+Crédito Comercial 12A,I,9.109375,False,True
+Crédito Comercial 12A,J,9.5546875,False,True
+Crédito Comercial 12A,K,11.5546875,False,True
+Crédito Comercial 12A,M,14.109375,False,True
+Crédito C12,C,14.0,False,True
+Crédito C12,D,6.6640625,False,True
+Crédito C12,E,6.77734375,False,True
+Crédito C12,F,7.21875,False,True
+Crédito C12,G,6.77734375,False,True
+Crédito C12,H,7.44140625,False,True
+Crédito C12,I,6.77734375,False,True
+Crédito C12,K,6.88671875,False,True
+Crédito C12,L,7.44140625,False,True
+Crédito C12,M,6.77734375,False,True
+Crédito C12,N,7.0,False,True
+Crédito C12,O,6.77734375,False,True
+Crédito C12,P,6.88671875,False,True
+Crédito C12,Q,6.77734375,False,True
+Crédito C12,R,7.21875,False,True
+Crédito C12,S,6.77734375,False,True
+Crédito C12,T,7.44140625,False,True
+Crédito C12,U,6.77734375,False,True
+Crédito C12,W,6.88671875,False,True
+Crédito C12,X,7.44140625,False,True
+Crédito C12,Y,6.77734375,False,True
+Crédito C12,Z,7.0,False,True
+Crédito C12,AA,6.77734375,False,True
+Crédito C12,AB,7.88671875,False,True
+Flujo 5 años C20,A,3.109375,False,False
+Flujo 5 años C20,B,6.6640625,False,True
+Flujo 5 años C20,C,2.44140625,False,False
+Flujo 5 años C20,D,43.5546875,False,True
+Flujo 5 años C20,E,10.0,False,True
+Flujo 5 años C20,F,10.44140625,False,True
+Flujo 5 años C20,H,11.109375,False,True
+Flujo 5 años C20,J,11.5546875,False,True
+Flujo 5 años C20,K,6.109375,False,True
+Flujo 5 años C20,L,11.109375,False,True
+Flujo 5 años C20,N,11.5546875,False,True
+Flujo 5 años C20,O,4.21875,False,False
+Flujo 5 años C20,P,17.44140625,False,True
+Flujo 5 años C20,Q,16.6640625,False,True
+Flujo 5 años C20,R,18.0,False,True
+Flujo 5 años C20,S,17.21875,False,True
+Crédito Comercial 20A,A,3.21875,False,False
+Crédito Comercial 20A,B,19.33203125,False,True
+Crédito Comercial 20A,C,5.5546875,False,True
+Crédito Comercial 20A,F,3.5546875,False,False
+Crédito Comercial 20A,H,9.5546875,False,True
+Crédito Comercial 20A,I,9.109375,False,True
+Crédito Comercial 20A,J,9.5546875,False,True
+Crédito Comercial 20A,K,11.5546875,False,True
+Crédito Comercial 20A,M,14.109375,False,True
+Crédito C20,C,14.0,False,True
+Crédito C20,D,6.6640625,False,True
+Crédito C20,E,6.77734375,False,True
+Crédito C20,F,7.21875,False,True
+Crédito C20,G,6.77734375,False,True
+Crédito C20,H,7.44140625,False,True
+Crédito C20,I,6.77734375,False,True
+Crédito C20,K,6.88671875,False,True
+Crédito C20,L,7.44140625,False,True
+Crédito C20,M,6.77734375,False,True
+Crédito C20,N,7.0,False,True
+Crédito C20,O,6.77734375,False,True
+Crédito C20,P,6.88671875,False,True
+Crédito C20,Q,6.77734375,False,True
+Crédito C20,R,7.21875,False,True
+Crédito C20,S,6.77734375,False,True
+Crédito C20,T,7.44140625,False,True
+Crédito C20,U,6.77734375,False,True
+Crédito C20,W,6.88671875,False,True
+Crédito C20,X,7.44140625,False,True
+Crédito C20,Y,6.77734375,False,True
+Crédito C20,Z,7.0,False,True
+Crédito C20,AA,6.77734375,False,True
+Crédito C20,AB,7.88671875,False,True

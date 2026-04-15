@@ -1,0 +1,23 @@
+{
+  "timestamp_utc": "2026-04-15 22:06:55 UTC",
+  "source_stage2_clone": "C:\\01. GitHub\\BeSmart15dModel\\08_CLONE\\Evaluación negocio Negocio Be Smart 1 (15 U. 28% Dcto-Bono Pie-5 años créd perfil 12).20260413.193341.stage2.IA.xlsx",
+  "output_stage3_clone": "C:\\01. GitHub\\BeSmart15dModel\\08_CLONE\\Evaluación negocio Negocio Be Smart 1 (15 U. 28% Dcto-Bono Pie-5 años créd perfil 12).20260413.193341.stage3.IA.xlsx",
+  "target_sheet": "Flujo mensual.IA",
+  "rebuild_block": {
+    "start_row": 2,
+    "end_row": 24,
+    "start_col": 1,
+    "end_col": 6
+  },
+  "input_inference": {
+    "monthly_rent_base": 2500000.0,
+    "source_sheet": "Arriendo",
+    "source_cell": "Q7",
+    "source_method": "MAX_NUMERIC_LITERAL_IN_ARRIENDO"
+  },
+  "assumptions": {
+    "occupancy_rate": 0.9,
+    "monthly_expense_placeholder": 250000.0
+  },
+  "status": "OK_STAGE3_FLUJO_MENSUAL_REBUILT_FROM_SQLITE"
+}

@@ -1,0 +1,12 @@
+[2026-04-15 15:19:10 UTC] Inicio extractor Phase 1.
+[2026-04-15 15:19:10 UTC] Working copy seleccionada: C:\01. GitHub\BeSmart15dModel\01_RAW\WORKING_COPY\Evaluación negocio Negocio Be Smart 1 (15 U. 28% Dcto-Bono Pie-5 años créd perfil 12).20260413.193341.xlsx
+[2026-04-15 15:19:10 UTC] ERROR: AttributeError: 'DefinedNameDict' object has no attribute 'definedName'
+[2026-04-15 15:47:14 UTC] Inicio extractor Phase 1.
+[2026-04-15 15:47:14 UTC] Working copy seleccionada: C:\01. GitHub\BeSmart15dModel\01_RAW\WORKING_COPY\Evaluación negocio Negocio Be Smart 1 (15 U. 28% Dcto-Bono Pie-5 años créd perfil 12).20260413.193341.xlsx
+[2026-04-15 15:47:14 UTC] ERROR: error: look-behind requires fixed-width pattern
+[2026-04-15 15:53:32 UTC] Inicio extractor Phase 1.
+[2026-04-15 15:53:32 UTC] Working copy seleccionada: C:\01. GitHub\BeSmart15dModel\01_RAW\WORKING_COPY\Evaluación negocio Negocio Be Smart 1 (15 U. 28% Dcto-Bono Pie-5 años créd perfil 12).20260413.193341.xlsx
+[2026-04-15 15:53:32 UTC] Extractor Phase 1 completado OK.
+[2026-04-15 16:00:51 UTC] Inicio extractor Phase 1.
+[2026-04-15 16:00:51 UTC] Working copy seleccionada: C:\01. GitHub\BeSmart15dModel\01_RAW\WORKING_COPY\Evaluación negocio Negocio Be Smart 1 (15 U. 28% Dcto-Bono Pie-5 años créd perfil 12).20260413.193341.xlsx
+[2026-04-15 16:00:52 UTC] Extractor Phase 1 completado OK.

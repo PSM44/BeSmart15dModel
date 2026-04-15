@@ -1,0 +1,32 @@
+﻿============================================================
+01.0_HUMAN.START.txt
+============================================================
+
+Proyecto:
+BeSmart15dModel
+
+PropÃ³sito:
+Documento humano principal para explicar:
+- quÃ© se estÃ¡ auditando
+- quÃ© ya se confirmÃ³
+- quÃ© sigue pendiente
+- quÃ© riesgos existen
+- quÃ© hallazgos estructurales y financieros aparecen
+
+Estado inicial:
+- estructura creada
+- pendiente ingresar archivo original en RAW\ORIGINAL
+- pendiente ejecutar RADAR
+- pendiente hash
+- pendiente copia de trabajo
+
+SecciÃ³n sugerida futura:
+1. contexto
+2. evidencia disponible
+3. inventario de hojas
+4. lÃ³gica general
+5. outputs clave
+6. riesgos tÃ©cnicos
+7. riesgos financieros
+8. plan de clonaciÃ³n
+9. plan de pruebas

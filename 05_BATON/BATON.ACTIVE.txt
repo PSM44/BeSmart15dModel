@@ -1,0 +1,134 @@
+﻿============================================================
+BATON.ACTIVE.txt
+============================================================
+
+PROJECT_ID: BeSmart15dModel
+PROJECT_TYPE: Excel forensic audit / reverse engineering / financial validation
+STATUS: ACTIVE
+PHASE: FASE 1 - AnatomÃ­a y trazabilidad
+LAST_UPDATE_UTC: 2026-04-13 23:31:38 UTC
+
+CURRENT_OBJECTIVE:
+- Ingresar archivo original
+- Registrar hash
+- Ejecutar RADAR
+- Preparar working copy
+- Iniciar inventario estructural
+
+CONFIRMED:
+- El alcance incluye lÃ³gica Excel y razonabilidad financiera inmobiliaria de supuestos y outputs.
+- No se debe automatizar ni clonar en esta fase sin antes entender y validar.
+
+PENDING:
+- Nombre exacto del archivo en RAW local
+- Hash SHA256 del original
+- Inventario de hojas
+- DetecciÃ³n de nombres definidos, vÃ­nculos, macros, queries y outputs clave
+
+RISKS:
+- Archivo podrÃ­a tener componentes ocultos o vÃ­nculos externos
+- Consistencia matemÃ¡tica no implica veracidad financiera
+- Posibles residuos histÃ³ricos / hojas muertas / reportes no conectados
+
+NEXT_ACTION:
+- Copiar Excel a 01_RAW\ORIGINAL
+- Ejecutar 07_RADAR\RADAR.ps1 -Root "C:\01. GitHub\BeSmart15dModel" -Mode All
+
+NEXT_READY_ITEM:
+- Crear HASH.REGISTRY.csv
+- Crear WORKING_COPY
+- Empezar AUDIT.LOG.txt
+
+EVIDENCE_ANCHOR:
+- estructura base creada
+- sin hash aÃºn
+- sin radar aÃºn
+- sin working copy aÃºn
+
+
+==================================================
+BATON — BESMART15DMODEL
+==================================================
+
+00. ESTADO GENERAL
+- Stage alcanzado: STAGE6_MINIMAL_NORMALIZATION
+- Pipeline activo: Excel (data_only) → engine → .IA
+- Clon parcial funcional operativo
+
+01. DEFINICIONES CLAVE
+
+01.01 Flujo mensual
+- Representa el flujo global del proyecto en el año 1
+- No es flujo unitario por departamento
+- No es flujo mensual puro
+
+01.02 Moneda
+- Modelo mezcla CLP y UF
+- No existe aún normalización completa
+
+01.03 Periodicidad
+- Flujo mensual = proxy de año 1
+- Flujo 5 años = modelo principal (anual)
+
+02. MAPPING ARRIENDO (CONFIRMADO)
+
+Q4  → arriendo mercado + gastos comunes (base ingreso)
+Q7  → CAPEX amoblado (EXCLUIDO)
+Q10 → contribuciones
+Q13 → dividendo total crédito (AGREGADO / NO MENSUAL)
+Q16 → gasto operacional
+Q19 → corretaje arriendo
+Q28 → imprevistos
+Q31 → administración
+
+03. REGLAS DE MODELAMIENTO
+
+03.01 Flujo operativo mensual (Stage 6)
+Incluye:
+- Q4, Q10, Q16, Q19, Q28, Q31
+
+Excluye:
+- Q7 (CAPEX)
+- Q13 (financiamiento no normalizado)
+
+03.02 Financiamiento
+- Q13 depende de:
+  - Crédito Comercial 12A!H8
+  - IVA Dptos!C1 (UF)
+- No se incorpora hasta normalizar:
+  - moneda
+  - periodicidad
+  - granularidad
+
+04. ESTADO DEL ENGINE
+
+- Inputs reales desde data_only ✔
+- Mapping explícito ✔
+- Separación operativo vs financiamiento ✔
+- Normalización parcial ✔
+
+05. PROBLEMAS ABIERTOS
+
+- Mezcla UF / CLP
+- Q13 no normalizado
+- Granularidad (por dpto vs total) no cerrada
+- Flujo mensual no es mensual real
+- Modelo depende de interpretación anual
+
+06. SIGUIENTE FASE
+
+Construcción de:
+
+Flujo 5 años C12.IA
+
+Requisitos:
+- usar flujo base año 1
+- aplicar ocupación 90% años 2–5
+- aplicar descuento salida 10%
+- integrar financiamiento correctamente
+
+07. PRINCIPIO CLAVE
+
+No interpretar antes de normalizar unidades.
+
+==================================================

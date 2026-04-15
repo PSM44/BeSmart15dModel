@@ -1,0 +1,81 @@
+﻿hoja,celda,tipo,validacion,observacion
+Resumen,K6,INPUT_MANUAL_NUMERICO,,Contexto input: Deptos F.Esc/Bco Alzante/Ingreso CBR | ='Crédito Comercial 12A'!D4
+Resumen,E7,INPUT_MANUAL_NUMERICO,,Contexto input:  | ='Crédito Comercial 12A'!$D$3
+Resumen,C8,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Descuento Inmobiliaria
+Resumen,C12,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Ingreso Total Arriendos
+Resumen,C16,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Venta al año 5 (90% del Precio de lista actual)
+IVA Dptos,C3,INPUT_MANUAL_NUMERICO,,Contexto input: Descuento | 0.18
+IVA Dptos,E7,INPUT_MANUAL_ALFANUMERICO,,Contexto input: Precio con dcto |
+IVA Dptos,Y7,INPUT_MANUAL_ALFANUMERICO,,Contexto input: Precio Lista Deptos |
+IVA Dptos,AD7,INPUT_MANUAL_ALFANUMERICO,,Contexto input: Descuento |
+IVA Dptos,X8,INPUT_MANUAL_NUMERICO,,Contexto input:  | Precio Lista Deptos
+IVA Dptos,E31,INPUT_MANUAL_ALFANUMERICO,,Contexto input: Precio Lista Deptos |
+IVA Dptos,I31,INPUT_MANUAL_ALFANUMERICO,,Contexto input: Precio 28% dcto |
+IVA Dptos,D32,INPUT_MANUAL_NUMERICO,,Contexto input: 702 | Precio Lista Deptos
+IVA Dptos,H32,INPUT_MANUAL_NUMERICO,,Contexto input:  | Precio 28% dcto
+Arriendo,F3,INPUT_MANUAL_ALFANUMERICO,,Contexto input: Valor Arriendo |
+Arriendo,G3,INPUT_MANUAL_ALFANUMERICO,,Contexto input: Valor Arriendo |
+Arriendo,K3,INPUT_MANUAL_ALFANUMERICO,,Contexto input: Arriendo-(11% A.F (mes)) |
+Arriendo,L3,INPUT_MANUAL_ALFANUMERICO,,Contexto input: IVA arriendo |
+Arriendo,R3,INPUT_MANUAL_ALFANUMERICO,,Contexto input: Arriendo GGCC Incluido |
+Arriendo,S3,INPUT_MANUAL_ALFANUMERICO,,Contexto input: Arriendo U |
+Arriendo,E4,INPUT_MANUAL_NUMERICO,,Contexto input: 702 | Valor Arriendo
+Arriendo,R15,INPUT_MANUAL_ALFANUMERICO,,Contexto input: Gasto Operacional |
+Arriendo,S15,INPUT_MANUAL_ALFANUMERICO,,Contexto input: gasto operc UF |
+Arriendo,R18,INPUT_MANUAL_ALFANUMERICO,,Contexto input: Comisión Corredor |
+Arriendo,S18,INPUT_MANUAL_ALFANUMERICO,,Contexto input: Comisión Corredor |
+Arriendo,R21,INPUT_MANUAL_ALFANUMERICO,,Contexto input: Gasto común |
+Arriendo,Q22,INPUT_MANUAL_NUMERICO,,Contexto input:  | Gasto común
+Flujo mensual,B5,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Arriendos
+Flujo mensual,B15,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Gasto operacional
+Flujo mensual,B16,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Comisión corredor
+Flujo mensual,J16,INPUT_MANUAL_NUMERICO,,Contexto input: =Arriendo!$R$22*3 | =Arriendo!$R$19*3
+Flujo mensual,B17,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Gasto común
+Flujo mensual,D17,INPUT_MANUAL_NUMERICO,,Contexto input:  | =Arriendo!$T$22
+Flujo mensual,E18,INPUT_MANUAL_NUMERICO,,Contexto input: 0 | =Arriendo!$R$31*2
+Flujo mensual,F18,INPUT_MANUAL_NUMERICO,,Contexto input: 0 | =Arriendo!$R$31*4
+Flujo mensual,G18,INPUT_MANUAL_NUMERICO,,Contexto input: 0 | =Arriendo!$R$31*6
+Flujo mensual,H18,INPUT_MANUAL_NUMERICO,,Contexto input: 0 | =Arriendo!$R$31*8
+Flujo mensual,I18,INPUT_MANUAL_NUMERICO,,Contexto input: 0 | =Arriendo!$R$31*12
+Flujo mensual,J18,INPUT_MANUAL_NUMERICO,,Contexto input: 0 | =Arriendo!$R$31*15
+Flujo 5 años C12,D4,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Arriendos
+Flujo 5 años C12,D7,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Venta propiedades
+Flujo 5 años C12,D15,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Gasto operacional
+Flujo 5 años C12,D16,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Comisión corredor
+Flujo 5 años C12,D17,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Gasto común
+Flujo 5 años C12,D20,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Costo Financiero Cred. 1
+Flujo 5 años C12,D22,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Impuesto / Utilidades (se venden al mismo precio)
+Flujo 5 años C12 (2),D6,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Arriendos
+Flujo 5 años C12 (2),P6,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Arriendos
+Flujo 5 años C12 (2),D9,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Venta propiedades
+Flujo 5 años C12 (2),P9,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Venta propiedades
+Flujo 5 años C12 (2),D17,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Gasto operacional
+Flujo 5 años C12 (2),D18,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Comisión corredor
+Flujo 5 años C12 (2),D19,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Gasto común
+Flujo 5 años C12 (2),D22,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Costo Financiero Cred. 1
+Flujo 5 años C12 (2),D24,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Impuesto
+Flujo 5 años C12 (2),P24,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Impuesto
+Crédito Comercial 12A,B3,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Venta Total (sin descuento)
+Crédito Comercial 12A,B5,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Crédito UF LTV - 72%
+Crédito Comercial 12A,B6,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Tasa anual nomial
+Crédito Comercial 12A,B7,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Tasa mensual
+Crédito C12,B1,INPUT_MANUAL_NUMERICO,,Contexto input: Tasa  |
+Crédito C12,A2,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Tasa
+Flujo 5 años C20,D4,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Arriendos
+Flujo 5 años C20,D7,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Venta propiedades
+Flujo 5 años C20,F14,INPUT_MANUAL_NUMERICO,,Contexto input: ='Flujo mensual'!P14 | =-'Crédito Comercial 20A'!$H$8*12
+Flujo 5 años C20,G14,INPUT_MANUAL_NUMERICO,,Contexto input: 0 | =-'Crédito Comercial 20A'!$H$8*12
+Flujo 5 años C20,H14,INPUT_MANUAL_NUMERICO,,Contexto input: 0 | =-'Crédito Comercial 20A'!$H$8*12
+Flujo 5 años C20,I14,INPUT_MANUAL_NUMERICO,,Contexto input: 0 | =-'Crédito Comercial 20A'!$H$8*12
+Flujo 5 años C20,J14,INPUT_MANUAL_NUMERICO,,Contexto input: 0 | =-'Crédito Comercial 20A'!$H$8*12
+Flujo 5 años C20,D15,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Gasto operacional
+Flujo 5 años C20,D16,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Comisión corredor
+Flujo 5 años C20,D17,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Gasto común
+Flujo 5 años C20,D20,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Costo Financiero Cred. 1
+Flujo 5 años C20,D22,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Impuesto / Utilidades (se venden al mismo precio)
+Crédito Comercial 20A,B3,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Venta Total (sin descuento)
+Crédito Comercial 20A,B5,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Crédito UF LTV - 75%
+Crédito Comercial 20A,B6,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Tasa anual UF
+Crédito Comercial 20A,B7,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Tasa mensual
+Crédito C20,B1,INPUT_MANUAL_NUMERICO,,Contexto input: Tasa  |
+Crédito C20,A2,INPUT_MANUAL_ALFANUMERICO,,Contexto input:  | Tasa

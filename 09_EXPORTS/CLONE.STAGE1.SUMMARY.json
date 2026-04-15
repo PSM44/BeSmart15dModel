@@ -1,0 +1,38 @@
+{
+  "timestamp_utc": "2026-04-15 21:56:42 UTC",
+  "source_workbook": "C:\\01. GitHub\\BeSmart15dModel\\01_RAW\\WORKING_COPY\\Evaluación negocio Negocio Be Smart 1 (15 U. 28% Dcto-Bono Pie-5 años créd perfil 12).20260413.193341.xlsx",
+  "db_path": "C:\\01. GitHub\\BeSmart15dModel\\01_DATA\\BeSmart15dModel.stage1.sqlite",
+  "tables_imported_count": 11,
+  "tables_imported": [
+    "core_inputs <- CORE.INPUTS.csv (31 rows)",
+    "core_outputs <- CORE.OUTPUTS.csv (84 rows)",
+    "core_constantes <- CORE.CONSTANTES.csv (117 rows)",
+    "core_dependencias <- CORE.DEPENDENCIAS.csv (1171 rows)",
+    "render_sheets <- RENDER.SHEETS.csv (12 rows)",
+    "render_cells <- RENDER.CELLS.csv (17171 rows)",
+    "render_merges <- RENDER.MERGES.csv (13 rows)",
+    "render_columns <- RENDER.COLUMNS.csv (191 rows)",
+    "render_rows <- RENDER.ROWS.csv (37 rows)",
+    "render_freeze_panes <- RENDER.FREEZE_PANES.csv (12 rows)",
+    "render_print_setup <- RENDER.PRINT_SETUP.csv (12 rows)"
+  ],
+  "missing_csv_count": 0,
+  "missing_csv": [],
+  "clone_workbook_path": "C:\\01. GitHub\\BeSmart15dModel\\08_CLONE\\Evaluación negocio Negocio Be Smart 1 (15 U. 28% Dcto-Bono Pie-5 años créd perfil 12).20260413.193341.stage1.IA.xlsx",
+  "created_ia_sheet_count": 12,
+  "created_ia_sheets": [
+    "Resumen.IA",
+    "IVA Dptos.IA",
+    "Hoja1.IA",
+    "Arriendo.IA",
+    "Flujo mensual.IA",
+    "Flujo 5 años C12.IA",
+    "Flujo 5 años C12 (2).IA",
+    "Crédito Comercial 12A.IA",
+    "Crédito C12.IA",
+    "Flujo 5 años C20.IA",
+    "Crédito Comercial 20A.IA",
+    "Crédito C20.IA"
+  ],
+  "stage": "STAGE1_SQLITE_AND_TEMPLATE_CLONE"
+}

@@ -1,0 +1,29 @@
+﻿============================================================
+AUDIT.LOG.txt
+============================================================
+
+[2026-04-13 23:31:38 UTC] Proyecto inicializado.
+[2026-04-13 23:31:38 UTC] Estructura creada.
+[2026-04-13 23:31:38 UTC] Pendiente copiar archivo original a 01_RAW\ORIGINAL.
+[2026-04-13 23:31:38 UTC] Pendiente registrar hash SHA256.
+[2026-04-13 23:31:38 UTC] Pendiente ejecutar RADAR.
+[2026-04-15 15:19:10 UTC] ERROR extractor Phase 1: AttributeError: 'DefinedNameDict' object has no attribute 'definedName'
+[2026-04-15 15:47:14 UTC] ERROR extractor Phase 1: error: look-behind requires fixed-width pattern
+[2026-04-15 15:53:32 UTC] Extractor Phase 1 ejecutado.
+[2026-04-15 15:53:32 UTC] Workbook analizado: Evaluación negocio Negocio Be Smart 1 (15 U. 28% Dcto-Bono Pie-5 años créd perfil 12).20260413.193341.xlsx
+[2026-04-15 15:53:32 UTC] Hojas detectadas: 12
+[2026-04-15 15:53:32 UTC] Formulas detectadas: 3640
+[2026-04-15 15:53:32 UTC] Errores detectados: 0
+[2026-04-15 15:53:32 UTC] Nombres definidos detectados: 0
+[2026-04-15 15:53:32 UTC] Validaciones detectadas: 0
+[2026-04-15 15:53:32 UTC] Merges detectados: 13
+[2026-04-15 15:53:32 UTC] Links externos detectados: 0
+[2026-04-15 16:00:52 UTC] Extractor Phase 1 ejecutado.
+[2026-04-15 16:00:52 UTC] Workbook analizado: Evaluación negocio Negocio Be Smart 1 (15 U. 28% Dcto-Bono Pie-5 años créd perfil 12).20260413.193341.xlsx
+[2026-04-15 16:00:52 UTC] Hojas detectadas: 12
+[2026-04-15 16:00:52 UTC] Formulas detectadas: 3640
+[2026-04-15 16:00:52 UTC] Errores detectados: 0
+[2026-04-15 16:00:52 UTC] Nombres definidos detectados: 0
+[2026-04-15 16:00:52 UTC] Validaciones detectadas: 0
+[2026-04-15 16:00:52 UTC] Merges detectados: 13
+[2026-04-15 16:00:52 UTC] Links externos detectados: 0

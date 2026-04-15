@@ -1,0 +1,13 @@
+﻿hoja,criticidad,justificacion
+Resumen,MEDIA,state=visible; used_range=A1:K23; rows=23; cols=11; tables=0; merged_ranges=9
+IVA Dptos,MEDIA,state=visible; used_range=A1:AE52; rows=52; cols=31; tables=0; merged_ranges=2
+Hoja1,MEDIA,state=visible; used_range=A1:P18; rows=18; cols=16; tables=0; merged_ranges=0
+Arriendo,MEDIA,state=visible; used_range=A1:T31; rows=31; cols=20; tables=0; merged_ranges=0
+Flujo mensual,ALTA,state=visible; used_range=A1:S37; rows=37; cols=19; tables=0; merged_ranges=0
+Flujo 5 años C12,ALTA,state=visible; used_range=A1:R47; rows=47; cols=18; tables=0; merged_ranges=0
+Flujo 5 años C12 (2),ALTA,state=visible; used_range=A1:AA49; rows=49; cols=27; tables=0; merged_ranges=2
+Crédito Comercial 12A,MEDIA,state=visible; used_range=A1:M368; rows=368; cols=13; tables=0; merged_ranges=0
+Crédito C12,MEDIA,state=visible; used_range=A1:BL9; rows=9; cols=64; tables=0; merged_ranges=0
+Flujo 5 años C20,ALTA,state=visible; used_range=A1:R47; rows=47; cols=18; tables=0; merged_ranges=0
+Crédito Comercial 20A,MEDIA,state=visible; used_range=A1:M368; rows=368; cols=13; tables=0; merged_ranges=0
+Crédito C20,MEDIA,state=visible; used_range=A1:BL9; rows=9; cols=64; tables=0; merged_ranges=0
